@@ -1,6 +1,6 @@
 import random
 
-import sqlite4
+import sqlite3
 
 connect = sqlite3.connect("MyDateBase.db")
 cursor = connect.cursor()
