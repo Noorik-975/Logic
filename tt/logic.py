@@ -1,7 +1,8 @@
 import random
+
 import sqlite3
 
-# Нурик кот
+# Урик кот
 connect = sqlite3.connect("MyDateBase.db")
 cursor = connect.cursor()
 cursor.execute("""
